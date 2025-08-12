@@ -9,7 +9,7 @@ export function Card({imagenUrl,clasName = "",name,oficio}) {
     
 
     <div  className={`font-bold p-4 ${clasName}`}   >
-      <div className="flex  ">
+      <div className="flex   ">
 
         
 
