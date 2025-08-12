@@ -1,3 +1,10 @@
+import photo1 from './assets/images/photo1.png'
+import photo2 from './assets/images/photo2.png'
+import photo3 from './assets/images/photo3.png'
+import photo4 from './assets/images/photo4.png'
+import photo5 from './assets/images/photo5.png'
+import photo6 from './assets/images/photo6.png'
+
 import Card from "./components/Card";
 
 function App() {
@@ -28,25 +35,25 @@ function App() {
           <Card
             name="Bill Mahoney"
             oficio="PRODUCT OWNER"
-            imagenUrl="./images/photo1.png"
+            imagenUrl={photo1}
           />
 
-           <Card
+          <Card
             name="Skylah Lu"
             oficio="UX DESIGNER"
-            imagenUrl="./images/photo4.png"
+            imagenUrl={photo4}
             clasName="hidden lg:block"
           />
           <Card
             name="Shae Le"
             oficio="TECHLEAD"
-            imagenUrl="./images/photo3.png"
-             clasName="sm:hidden"
+            imagenUrl={photo3}
+            clasName="sm:hidden"
           />
           <Card
             name="Griff Richards"
             oficio="DEVELOPER"
-            imagenUrl="./images/photo5.png"
+            imagenUrl={photo5}
             clasName="sm:hidden"
           />
         </div>
@@ -56,28 +63,25 @@ function App() {
           <Card
             name="Saba Cabrera"
             oficio="ART DIRECTOR"
-            imagenUrl="./images/photo2.png"
-
-            
-            
+            imagenUrl={photo2}
           />
           <Card
             name="Griff Richards"
             oficio="DEVELOPER"
-            imagenUrl="./images/photo5.png"
+            imagenUrl={photo5}
             clasName="hidden lg:block"
           />
           <Card
             name="Skylah Lu"
             oficio="UX DESIGNER"
-            imagenUrl="./images/photo4.png"
+            imagenUrl={photo4}
             clasName="sm:hidden"
           />
           <Card
             name="Stan John"
             oficio="DEVELOPER"
-            imagenUrl="./images/photo6.png"
-             clasName="sm:hidden"
+            imagenUrl={photo6}
+            clasName="sm:hidden"
           />
         </div>
 
@@ -86,12 +90,12 @@ function App() {
           <Card
             name="Shae Le"
             oficio="TECHLEAD"
-            imagenUrl="./images/photo3.png"
+            imagenUrl={photo3}
           />
           <Card
             name="Stan John"
             oficio="DEVELOPER"
-            imagenUrl="./images/photo6.png"
+            imagenUrl={photo6}
           />
         </div>
       </main>
